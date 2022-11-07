@@ -27,3 +27,4 @@ always_ff @ (posedge clk)
 	        end
         end
 endmodule
+//found N = 25
