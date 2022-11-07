@@ -21,23 +21,23 @@ module f1seq(
     always_comb 
         case(currentstate)
             S0: if(en == 1) nextstate = S1;
-                //else nextstate = currentstate;
+                
             S1: if(en == 1) nextstate = S2;
-                //else nextstate = currentstate;
+                
             S2: if(en == 1) nextstate = S3;
-                //else nextstate = currentstate;
+
             S3: if(en == 1) nextstate = S4;
-                //else nextstate = currentstate;
+
             S4: if(en == 1) nextstate = S5;
-                //else nextstate = currentstate;
+
             S5: if(en == 1) nextstate = S6;
-                //else nextstate = currentstate;
+
             S6: if(en == 1) nextstate = S7;
-                //else nextstate = currentstate;
+
             S7: if(en == 1) nextstate = S8;
-                //else nextstate = currentstate;
+
             S8: if(en == 1) nextstate = S0;
-                //else nextstate = currentstate;
+   
 
             default: nextstate = S0;
 
